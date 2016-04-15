@@ -22,7 +22,7 @@ use \DateTimeZone;
  */
 class _dt
 {
-    use m62DateTime;
+    use m62DateTime; 
 }
 
 /**
