@@ -1,20 +1,20 @@
 <?php
 /**
- * mithra62
+ * Jaeger
  *
  * @author		Eric Lamb <eric@mithra62.com>
- * @copyright	Copyright (c) 2015, mithra62, Eric Lamb.
- * @link		http://mithra62.com/
+ * @copyright	Copyright (c) 2015-2016, mithra62, Eric Lamb
+ * @link		http://jaeger-app.com
  * @version		1.0
- * @filesource 	./mithra62/Traits/DateTime.php
+ * @filesource 	./Traits/DateTime.php
  */
-namespace mithra62\Traits;
+namespace JaegerApp\Traits;
 
 use Carbon\Carbon;
 use RelativeTime\RelativeTime;
 
 /**
- * mithra62 - DateTime Trait
+ * Jaeger - DateTime Trait
  *
  * Handles DateTime conversion and output
  *
@@ -84,7 +84,7 @@ trait DateTime
      * Sets the timezone to use
      * 
      * @param string $tz            
-     * @return \mithra62\Traits\DateTime
+     * @return \JaegerApp\Traits\DateTime
      */
     public function setTz($tz)
     {
