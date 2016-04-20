@@ -18,27 +18,3 @@ $ composer require jaeger-app/date-time
 
 Since `JaegerApp\Traits\DateTime` is a Trait you just attach it to existing objects like any other PHP Trait (with the `use DateTime` statement. 
 
-```php
-class MyObject
-{
-    use \JaegerApp\Traits\DateTime; 
-}
-```
-
-## Methods
-
-`JaegerApp\Traits\DateTime` uses `Carbon\Carbon` for the heavy lifting but provides some helper methods to make things easier.
-
-```php
-class MyObject
-{
-    use \JaegerApp\Traits\DateTime; 
-}
-
-$obj = new MyObject;
-
-//Returns the current time in Unix format
-$obj->getNow($format = 'U');
-
-```
-
